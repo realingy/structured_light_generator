@@ -19,3 +19,12 @@ target_link_libraries(${EXENAME1} ${OpenCV_LIBS})
 set(EXENAME2 generate_gray_codes)
 add_executable(${EXENAME2} 格雷码生成.cpp)
 target_link_libraries(${EXENAME2} ${OpenCV_LIBS})
+
+set(EXENAME3 encoder_gray_code)
+add_executable(${EXENAME3} EncoderGrayCode.cpp EncoderGrayCode.h)
+target_link_libraries(${EXENAME3} ${OpenCV_LIBS})
+
+set(EXENAME4 gray_code_test)
+add_executable(${EXENAME4} 格雷码测试.cpp)
+target_link_libraries(${EXENAME4} ${OpenCV_LIBS})
+
