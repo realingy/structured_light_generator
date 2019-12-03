@@ -1,0 +1,2 @@
+# structured_light_generator
+基于格雷码的结构光栅生成程序
